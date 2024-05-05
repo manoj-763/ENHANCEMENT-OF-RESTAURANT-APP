@@ -1,0 +1,40 @@
+.nav-bar {
+  box-shadow: 0px 8px 10px -15px #111;
+  width: 100%;
+}
+.nav-heading {
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-items {
+  margin-right: 10%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.list-items li {
+  list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  .list-items li {
+    list-style: none;
+    display: none;
+  }
+}
+
+.nav-cart-count {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+  margin-left: -30px;
+  border-radius: 11px;
+  font-size: 14px;
+  background-color: red;
+  color: white;
+}
